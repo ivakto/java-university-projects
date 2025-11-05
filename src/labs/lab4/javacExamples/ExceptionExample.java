@@ -15,6 +15,7 @@ public class ExceptionExample {
                 number = scanner.nextInt();
                 System.out.println(division(100, number));
                 result = true;
+                scanner.close();
             } catch (InputMismatchException e) {
                 System.out.println("You didn't enter integer!");
             } catch (ArithmeticException e) {
@@ -22,10 +23,12 @@ public class ExceptionExample {
             } catch (Exception e) {
                 e.printStackTrace();
             }
+    
 
         } while (!result);
     }
     public static int division(int a, int b) {
         return a/b;
     }
+
 }

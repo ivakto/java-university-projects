@@ -15,6 +15,7 @@ public class ExceptionExample4 {
         Scanner scanner = new Scanner(System.in);
 
         int userPrice = scanner.nextInt();
+        scanner.close();
         if (userPrice > 500 || userPrice < 100) {
             throw new PriceErrorException();
         }
