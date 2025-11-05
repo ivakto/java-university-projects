@@ -148,6 +148,6 @@ public class Exercises {
         }
 
         //System.out.printf("%.3f%n", area)
-    }
-
 }
+
+
