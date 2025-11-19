@@ -1,14 +1,14 @@
-package seminars.sem2;
+// package seminars.sem2;
 
-import java.util.Scanner;
-import java.lang.Math;
+// import java.util.Scanner;
+// import java.lang.Math;
 
-public class Exercises {
-    public static void main(String[] args) {
+// public class Exercises {
+//     public static void main(String[] args) {
 
-        // Задача 4
-        //String day;
-        Scanner input = new Scanner(System.in);
+//         // Задача 4
+//         //String day;
+//         Scanner input = new Scanner(System.in);
 
         //System.out.println("Input day: ");
         //day = input.nextLine();
@@ -71,20 +71,20 @@ public class Exercises {
 
         // Задача 17
 
-        int N = input.nextInt();
-        int K = input.nextInt();
+        // int N = input.nextInt();
+        // int K = input.nextInt();
 
-        if (K <= 1 || K >= N) {
-            return;
-        }
+        // if (K <= 1 || K >= N) {
+        //     return;
+        // }
 
-        long result = 1;
+        // long result = 1;
 
-        for (int i = K + 1; i <= N; i++) {
-            result *= i;
-        }
+        // for (int i = K + 1; i <= N; i++) {
+        //     result *= i;
+        // }
 
-        System.out.println(result);
+        // System.out.println(result);
     
 
         // Задача 18
@@ -145,9 +145,9 @@ public class Exercises {
                 //System.out.println("Невалиден вид фигура.");
                 //input.close();
                 //return;
-        }
+        //}
 
         //System.out.printf("%.3f%n", area)
-}
+//}
 
 
